@@ -13,9 +13,9 @@ const fromDollarToYen = function(valueInDollar) {
     return valueInYen;
 }
 
-const fromYenToPound = function(valueInPound) {
+const fromYenToPound = function(valueInYen) {
     // Convertimos el valor a dólares
-    let valueInPound = valueInPound * 0.87 ;
+    let valueInPound = valueInYen * 0.87 ;
     // Retornamos el valor en dólares
     return valueInPound;
 }
